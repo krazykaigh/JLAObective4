@@ -1,5 +1,13 @@
-package com.componentwise.eval;
+/*
+  Java Language Assessment - Objective 4
+  Create JUnit Test for all methods in UserKey
+  Test to verify the UserKey Object is Serializable
 
+  @See README.md Question 4
+ * @https://github.com/krazykaigh/JLAObective4/tree/master
+ * @Date
+ */
+package com.componentwise.eval;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -8,7 +16,7 @@ import org.junit.Test;
 import java.io.*;
 
 
-public class UserKeyTest1 {
+public class UserKeyTest {
 
     private UserKey someUserKey;
 
@@ -34,12 +42,12 @@ public class UserKeyTest1 {
     public void testSeriai2Deserial(){
         System.out.println("Inside testSerialization()");
 
-        /**
-         * This class is a test of the
-         * Serialization and Deserialization
-         * of the UserKey Object.
-         *
-         * JUnit tests did not properly run this test.
+        /*
+          This class is a test of the
+          Serialization and Deserialization
+          of the UserKey Object.
+
+          JUnit tests did not properly run this test.
          */
 
         String filename = "file.ser";

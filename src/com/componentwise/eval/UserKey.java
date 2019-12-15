@@ -1,13 +1,15 @@
-package com.componentwise.eval;
+/*
+ Java Language Assessment-Objective 2
+ UserKey Class
 
-
-import java.io.Serializable;
-
-/**
+ @https://github.com/krazykaigh/JLAObective4/tree/master
  *
- * This class uses serializable and adds
+ * This class uses serializable and has
  * JavaDoc annotations
  */
+package com.componentwise.eval;
+
+import java.io.Serializable;
 
 public class UserKey implements Serializable {
     private String name;

@@ -1,5 +1,12 @@
-package com.componentwise.eval;
+/*
+  Java Language Assessment - Objective 4
+  Test Runner
 
+  @See README.md Question 4
+ * @https://github.com/krazykaigh/JLAObective4/tree/master
+ */
+
+package com.componentwise.eval;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
